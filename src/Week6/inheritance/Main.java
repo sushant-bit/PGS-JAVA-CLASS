@@ -5,5 +5,9 @@ public class Main {
         Car car = new Car();
         car.start();
         car.stop();
+
+        PORSCHE porsche= new PORSCHE();
+        porsche.start();
+        porsche.stop();
     }
 }
