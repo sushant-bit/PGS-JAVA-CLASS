@@ -9,5 +9,9 @@ public class Main {
         PORSCHE porsche= new PORSCHE();
         porsche.start();
         porsche.stop();
+
+        TESLA tesla= new TESLA();
+        tesla.start();
+
     }
 }
