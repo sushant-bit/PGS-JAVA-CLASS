@@ -14,8 +14,5 @@ public class Bike extends Vehicle {
         System.out.println("Type of handlebar is: "+typeOfHandleBar);
     }
 
-    public static void main(String[] args) {
-        Bike bike = new Bike("Yamaha ZR",85, "tubular handlebar design");
-        bike.displayInfo();
-    }
+
 }

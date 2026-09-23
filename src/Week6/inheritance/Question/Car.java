@@ -14,8 +14,5 @@ public class Car extends Vehicle {
         System.out.println("No of doors: " + noOfDoors);
     }
 
-    public static void main(String[] args) {
-        Car car = new Car("Toyota", 180, 4);
-        car.displayInfo();
-    }
+
 }
