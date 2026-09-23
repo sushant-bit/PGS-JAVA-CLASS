@@ -14,8 +14,4 @@ public class SuperAdmin extends User {
         System.out.println("Role: "+ role);
     }
 
-    public static void main(String[] args) {
-        SuperAdmin admin= new SuperAdmin("Sushant Adhikari", 22,"Software Engineer");
-        admin.display();
-    }
 }
