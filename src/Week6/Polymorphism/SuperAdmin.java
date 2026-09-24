@@ -14,4 +14,8 @@ public class SuperAdmin extends User {
         System.out.println("Role: "+ role);
     }
 
+    public void auth(){
+        System.out.println("Authentication.");
+    }
+
 }

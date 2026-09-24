@@ -7,5 +7,6 @@ public class Main {
 
         User superad= new SuperAdmin("Dipsan Raj Lama",20, "Junior Developer");
         superad.display();
+
     }
 }
