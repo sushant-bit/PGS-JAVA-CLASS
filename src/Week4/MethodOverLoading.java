@@ -1,7 +1,7 @@
 package Week4;
 
 public class MethodOverLoading {
-    //polymorphisim
+    //polymorphism
     public static void multiple(int a, int b) {
         System.out.println("Multiply: "+ (a*b));
     }
