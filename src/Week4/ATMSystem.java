@@ -1,7 +1,6 @@
 package Week4;
 
 import java.util.Scanner;
-
 public class ATMSystem {
     public static int balance=45000;
 
@@ -9,7 +8,6 @@ public class ATMSystem {
         Scanner sc = new Scanner(System.in);
         boolean isKhatam=false;
         int totalAmount=50000;
-
         while (!isKhatam){
             System.out.println("Choose an Option: ");
             System.out.println("Enter 1 to Withdraw Amount: ");
@@ -37,7 +35,6 @@ public class ATMSystem {
                 }
                 default -> System.out.println("Invalid option.");
             }
-
         }
     }
 
