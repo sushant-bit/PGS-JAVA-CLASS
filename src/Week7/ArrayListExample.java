@@ -11,8 +11,20 @@ public class ArrayListExample {
         names.add("Manish");
         names.add("unique");
         names.add("Madan");
+        names.add(3,"Henry");//shifting
+        names.set(2,"Lalu");//replace the value
 
+        names.remove(1);
+        names.remove("Manish");
 
-        System.out.println(names);
+//        System.out.println(names.get(0));
+
+//        for (int i = 0; i < names.toArray().length; i++) {
+//            System.out.println(names.get(i));
+//
+//        }
+        for(String name:names){
+            System.out.println(name);
+        }
     }
 }
