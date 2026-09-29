@@ -11,7 +11,7 @@ public class GrocceryItems {
         int option = -1;
 
         while (option != 0) {
-            System.out.println("\n--- GROCERY MENU ---");
+            System.out.println("GROCERY MENU");
             System.out.println("Enter 1 to Add Items to the list.");
             System.out.println("Enter 2 to Remove Items from the list.");
             System.out.println("Enter 3 to Display all Items.");
