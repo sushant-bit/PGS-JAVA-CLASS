@@ -6,7 +6,6 @@ public class Main {
         savingAccount.accountInfo();
         savingAccount.checkBalance();
 
-        System.out.println("-------------------");
 
         AccountRule currentAcc = new Account("Current", "Parajuli", 445743872);
         currentAcc.accountInfo();

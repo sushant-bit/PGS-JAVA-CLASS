@@ -16,9 +16,4 @@ public class Dog {
 
         System.out.println("Dog eats");
     }
-
-
-    public static void main(String[] args) {
-
-    }
 }
