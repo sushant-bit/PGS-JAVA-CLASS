@@ -12,6 +12,9 @@ public class Box<T> {
     }
 
     public static void main(String[] args) {
+
         Box<String> box=new Box<>();
+        box.setValue("Hello Java!");
+        System.out.println(box.getValue());
     }
 }
